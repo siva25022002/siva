@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int num;
+printf("\n Enter the number to convert:");
+scanf("%d",&num);
+printf("\n octal number of a given number=%0",number);
+return 0;
+}
