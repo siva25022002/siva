@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int x=1; // global variable
+static int count =0;
+void main ()
+{
+    int z;//local variable
+    register int number;// register variable
+    clrscr();
+    ++count;
+    printf("enter the value of 1:");
+    scanf("%d",&x);
+    printf("enter the value of 2:");
+    scanf("%d",&z);
+    answer=x+z;
+    printf("%d.adittion",count,answer);
+    getch();
+    
+}
