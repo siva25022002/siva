@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    // Write C code here
+   int a,b;
+   printf("enter the two numbers");
+   scanf("%d%d",&a,&b);
+   printf("value of a and b:%d %d",a,b);
+   
+ 
+}
